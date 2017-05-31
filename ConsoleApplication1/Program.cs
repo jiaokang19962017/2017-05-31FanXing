@@ -10,6 +10,11 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            Class1 c = new Class1();
+            c.Add(8);
+            c.Add(9);
+            c.Add(10);
+            c.PrintLog();
         }
     }
 }
