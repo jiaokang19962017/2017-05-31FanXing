@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication2", "Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeiJu", "MeiJu\MeiJu.csproj", "{A0EA489A-07D4-4439-B51C-FBCC10DE81D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FanXingTest", "FanXingTest\FanXingTest.csproj", "{C5F90BF4-44F6-459D-8998-31BE58A3B38A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A0EA489A-07D4-4439-B51C-FBCC10DE81D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0EA489A-07D4-4439-B51C-FBCC10DE81D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0EA489A-07D4-4439-B51C-FBCC10DE81D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F90BF4-44F6-459D-8998-31BE58A3B38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F90BF4-44F6-459D-8998-31BE58A3B38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F90BF4-44F6-459D-8998-31BE58A3B38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F90BF4-44F6-459D-8998-31BE58A3B38A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
