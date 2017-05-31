@@ -12,6 +12,10 @@ namespace ConsoleApplication2
         private string vendor;
         private double price;
 
+        public Product(double price)
+        {
+            this.Price = price;
+        }
         public string Name
         {
             get
@@ -52,17 +56,27 @@ namespace ConsoleApplication2
         }
         public int ComperTo(object obj)
         {
-            Product pd = (Product)obj;
-            int result;
-            if (this.price > pd.price)
+            if (obj as Product != null)
             {
-                result = 1;
+                Product pd = (Product)obj;
+                int result;
+                if (this.price > pd.price)
+                {
+                    result = 1;
+                }
+                else if (this.price < pd.price)
+                {
+                    result = -1;
+                }
+                else
+                {
+                    return 0;
+                }
+              
             }
-            else if (this.price < pd.price)
-            {
-                result = -1;
-            }
-            return this.price.CompareTo(pd.price);
+            return 2;
+
+       
         }
     }
 }
